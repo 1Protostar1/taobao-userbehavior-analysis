@@ -1,0 +1,38 @@
+# 数据文件（3.6 GB，保持原位，不进版本库）
+*.csv
+*.csv.gz
+data/*.csv
+
+# 虚拟环境
+.venv/
+venv/
+
+# 中间层与结果（体积大，可随时重算）
+outputs/
+*.parquet
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# IDE
+.idea/
+.vscode/
+
+# 系统
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# 个人学习笔记（代码精读、面试准备），不上传
+learning/
+
+# Power BI 数据准备（暂不上传）
+powerbi/
+
+# WorkBuddy 项目内部数据（含个人工作记录，不上传）
+.workbuddy/
+
+# 发布用静态副本（由 reports/ 复制生成，随时可重建）
+publish/
